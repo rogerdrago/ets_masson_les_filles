@@ -29,26 +29,26 @@ div.jp-playlist li a,
 }
 
 h1 {
-	font-family: "Headland One", serif"Headland One", serif;
+	font-family:'Work Sans', sans-serif;
 	font-size: 48px;
 	line-height: 54px;
 }
 
 h2,
-.sitemap > li > a {font:24px/36px "Headland One", serif;}
+.sitemap > li > a {font:24px/36px 'Work Sans', sans-serif;}
 
 h3,
 .sitemap > li > ul > li > a,
 h3 a,
 .post .entry-header .entry-content,
-.post.format-quote blockquote {font:18px/24px "Headland One", serif;}
+.post.format-quote blockquote {font:18px/24px 'Work Sans', sans-serif;}
 
 h4,
 h4 a,
 .widget_portfolio_link,
 .post .cmsms_info .entry-meta,
 .post .cmsms_info .entry-meta a,
-.post_link {font:16px/18px "Headland One", serif;}
+.post_link {font:16px/18px 'Work Sans', sans-serif;}
 
 h5,
 .tabs li a,
@@ -56,9 +56,9 @@ h5,
 .tog,
 .tour li a,
 .table thead th,
-.entry .project_navi span a {font:14px/18px "Headland One", serif;}
+.entry .project_navi span a {font:14px/18px 'Work Sans', sans-serif;}
 
-h6 {font:12px/18px "Droid Serif", serif;}
+h6 {font:12px/18px 'Work Sans', sans-serif;}
 
 h6 {font-style:italic;}
 
@@ -70,13 +70,13 @@ li abbr,
 li small {line-height:18px;}
 
 q, 
-blockquote {font:14px/24px "Headland One", serif;}
+blockquote {font:14px/24px 'Work Sans', sans-serif;}
 
 q:before, 
 q:after, 
 blockquote:before,
 blockquote:after {
-	font:36px/36px "Droid Serif", serif;
+	font:36px/36px 'Work Sans', sans-serif;
 	font-style:italic;
 }
 
@@ -87,23 +87,23 @@ code,
 .widget_nav_menu li a,
 .widget_meta li a,
 .widget_pages li a,
-.arrow_dash_r li a {font:12px/18px "Headland One", serif;}
+.arrow_dash_r li a {font:12px/18px 'Work Sans', sans-serif;}
 
 small, 
-abbr {font:12px/18px "Headland One", serif;}
+abbr {font:12px/18px 'Work Sans', sans-serif;}
 
 input, 
 textarea, 
 select, 
 option, 
 .cmsms-form-builder .check_parent input[type="checkbox"]+label, 
-.cmsms-form-builder .check_parent input[type="radio"]+label {font:12px/18px "Headland One", serif;}
+.cmsms-form-builder .check_parent input[type="radio"]+label {font:12px/18px 'Work Sans', sans-serif;}
 
 #navigation > li > a,
 #navigation > li.current_page_item > a,
-#navigation > li:hover > a {font:14px/18px "Headland One", serif;}
+#navigation > li:hover > a {font:14px/18px 'Work Sans', sans-serif;}
 
-#navigation ul li a {font:13px/18px "Droid Serif", serif;}
+#navigation ul li a {font:13px/18px 'Work Sans', sans-serif}
 
 a,
 .cont_nav,
@@ -112,7 +112,7 @@ a,
 .comment-body .published,
 #slider h1,
 #slider h2,
-#slider h3 {font-family:"Droid Serif", serif;}
+#slider h3 {font-family:'Work Sans', sans-serif;}
 
 a,
 .cont_nav,
@@ -127,7 +127,7 @@ span.dropcap2,
 span.dropcap,
 ul.p_filter li a,
 .social_block ul li a,
-.featured_block .fb_link {font-family:"Headland One", serif;}
+.featured_block .fb_link {font-family:'Work Sans', sans-serif;}
 
 #slider h1 {
 	font-size:130px;
@@ -162,7 +162,7 @@ ul.p_filter li a,
 
 @media only screen and (max-width: 767px) {
 
-	#navigation ul li a {font:14px/18px "Headland One", serif;}
+	#navigation ul li a {font:14px/18px font-family: 'Work Sans', sans-serif; font-weight: 700}
 
 }
 
