@@ -238,7 +238,7 @@ h6 {color:#000000;}
 #navigation li.current_page_ancestor > a,
 #navigation li:hover > a:hover, 
 #navigation li:hover > a {
-	color:#1b75bc;
+	color:#4074B4;
 }
 
 #navigation li li > a,
@@ -249,7 +249,7 @@ h6 {color:#000000;}
 #navigation li li.current_page_item > a,
 #navigation li li:hover > a:hover, 
 #navigation ul li:hover > a {
-	color:#1b75bc;
+	color:#4074B4;
 }
 
 q, 
@@ -325,16 +325,16 @@ span.dropcap2,
 .button_large,
 .skill_item_colored,
 .resp_navigation {
-	background-color:#1b75bc;
+	background-color:#4074B4;
 }
 
 input[type="text"]:focus,
 textarea:focus,
 select:focus {
-	border-color:#1b75bc;
+	border-color:#4074B4;
 }
 
-code {border-top-color:#1b75bc;}
+code {border-top-color:#4074B4;}
 
 .comment-reply-link:hover,
 .comment-reply-link.active,
