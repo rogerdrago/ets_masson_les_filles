@@ -26,29 +26,38 @@ div.jp-playlist li a,
 .project_details a,
 .project_details abbr {
 	font:#00F;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+
 }
 
 h1 {
-	font-family:'Work Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 48px;
 	line-height: 54px;
 }
 
 h2,
-.sitemap > li > a {font:24px/36px 'Work Sans', sans-serif;}
+.sitemap > li > a {font:24px/36px font-family: 'Open Sans', sans-serif;}
 
 h3,
 .sitemap > li > ul > li > a,
 h3 a,
 .post .entry-header .entry-content,
-.post.format-quote blockquote {font:18px/24px 'Work Sans', sans-serif;}
+.post.format-quote blockquote {font:18px/24px font-family: 'Open Sans', sans-serif;}
 
 h4,
 h4 a,
 .widget_portfolio_link,
 .post .cmsms_info .entry-meta,
 .post .cmsms_info .entry-meta a,
-.post_link {font:16px/18px 'Work Sans', sans-serif;}
+.post_link {font:16px/18px font-family: 'Open Sans', sans-serif;
+font-weight: 600;
+}
 
 h5,
 .tabs li a,
@@ -56,28 +65,28 @@ h5,
 .tog,
 .tour li a,
 .table thead th,
-.entry .project_navi span a {font:14px/18px 'Work Sans', sans-serif;}
+.entry .project_navi span a {font:14px/18px font-family: 'Open Sans', sans-serif;}
 
-h6 {font:12px/18px 'Work Sans', sans-serif;}
+h6 {font:12px/18px font-family: 'Open Sans', sans-serif;}
 
-h6 {font-style:italic;}
+h6 {font-style:'Open Sans', sans-serif;;}
 
 li {line-height:24px;}
 
 li p,
 li a,
 li abbr,
-li small {line-height:18px;}
+li small {line-height:22px;}
 
 q, 
-blockquote {font:14px/24px 'Work Sans', sans-serif;}
+blockquote {font:14px/24px font-family: 'Open Sans', sans-serif;}
 
 q:before, 
 q:after, 
 blockquote:before,
 blockquote:after {
-	font:36px/36px 'Work Sans', sans-serif;
-	font-style:italic;
+	font:36px/36px font-family: 'Open Sans', sans-serif;
+	font-style:normal;
 }
 
 code,
@@ -87,32 +96,28 @@ code,
 .widget_nav_menu li a,
 .widget_meta li a,
 .widget_pages li a,
-.arrow_dash_r li a {font:12px/18px 'Work Sans', sans-serif;}
+.arrow_dash_r li a {font:12px/18px font-family: 'Open Sans', sans-serif;}
 
 small, 
-abbr {font:12px/18px 'Work Sans', sans-serif;}
+abbr {font:12px/18px font-family: 'Open Sans', sans-serif;}
 
 input, 
 textarea, 
 select, 
 option, 
 .cmsms-form-builder .check_parent input[type="checkbox"]+label, 
-.cmsms-form-builder .check_parent input[type="radio"]+label {font:12px/18px 'Work Sans', sans-serif;}
+.cmsms-form-builder .check_parent input[type="radio"]+label {font:12px/18px font-family: 'Open Sans', sans-serif;}
 
 #navigation > li > a,
 #navigation > li.current_page_item > a,
-#navigation > li:hover > a {font:14px/18px 'Work Sans', sans-serif;}
+#navigation > li:hover > a {font:14px/18px font-family: 'Open Sans', sans-serif;}
+#navigation ul li a {font:13px/18px 'Open Sans', sans-serif;}
 
-#navigation ul li a {font:13px/18px 'Work Sans', sans-serif}
+#navigation  li.typo  a{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 18px;
 
-a,
-.cont_nav,
-.widget abbr,
-.post_type_shortcode .cmsms_category,
-.comment-body .published,
-#slider h1,
-#slider h2,
-#slider h3 {font-family:'Work Sans', sans-serif;}
+}
 
 a,
 .cont_nav,
@@ -121,13 +126,22 @@ a,
 .comment-body .published,
 #slider h1,
 #slider h2,
-#slider h3 {font-style:italic;}
+#slider h3 {font-family: 'Open Sans', sans-serif;}
+
+a,
+.cont_nav,
+.widget abbr,
+.post_type_shortcode .cmsms_category,
+.comment-body .published,
+#slider h1,
+#slider h2,
+#slider h3 {font-style:normal;}
 
 span.dropcap2,
 span.dropcap,
 ul.p_filter li a,
 .social_block ul li a,
-.featured_block .fb_link {font-family:'Work Sans', sans-serif;}
+.featured_block .fb_link {font-family: 'Open Sans', sans-serif;}
 
 #slider h1 {
 	font-size:130px;
@@ -162,9 +176,10 @@ ul.p_filter li a,
 
 @media only screen and (max-width: 767px) {
 
-	#navigation ul li a {font:14px/18px font-family: 'Work Sans', sans-serif; font-weight: 700}
+	#navigation ul li a {font:14px/18px font-family: font-family: 'Open Sans', sans-serif; font-weight: 300}
 
 }
+
 
 
 /* Colors */
@@ -185,7 +200,7 @@ a,
 .comment-body .published,
 .featured_block .fb_link:hover,
 .widget_text h1 a:hover {
-	color:#1b6dbd;
+	color:#4074ba;
 }
 
 a:hover,
@@ -212,7 +227,7 @@ div.jp-playlist li.jp-playlist-current a,
 .social_block ul li a:hover,
 .featured_block .fb_link,
 .widget_text h1 a {
-	color:#1b6dbd;
+	color:#4074ba;
 }
 
 h1 {color:#000000;}
