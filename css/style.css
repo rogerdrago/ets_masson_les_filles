@@ -886,8 +886,9 @@ h6 a {
 /* -------------------------------------------------------------------------------- Bottom */
 
 #bottom {
-	border-top:1px solid #9d9d9d;
+	/* border-top:1px solid #9d9d9d;*/
 	position:relative;
+	background: #F5F5F5;
 }
 
 .bottom_inner {
@@ -902,7 +903,9 @@ h6 a {
 /* -------------------------------------------------------------------------------- Footer */
 
 #footer {
-	border-top:1px solid #9d9d9d;
+	/*border-top:1px solid #9d9d9d;*/
+	
+	
 	border-bottom:40px solid #1b6dbd;
 	width:100%;
 
