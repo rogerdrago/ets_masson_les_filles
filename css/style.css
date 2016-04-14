@@ -4561,7 +4561,7 @@ a.cmsms_content_next_slide:hover {border-left-color:#000000;}
 	.post_type_shortcode .entry-meta,
 	.portfolio_container .portfolio_inner .entry-meta,
 	.widget abbr {
-		background-image:url(../images/retina/vert_divider@2x.png); 
+		/*background-image:url(../images/retina/vert_divider@2x.png);*/ 
 		background-size:7px 14px; 
 	}
 	
