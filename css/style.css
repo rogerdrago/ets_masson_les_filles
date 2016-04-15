@@ -683,13 +683,13 @@ h6 a {
     padding-right:0;
 }
 
-#content {
+/*#content {
     width:100%;
     float:left;
     padding:50px 0;
 	overflow:hidden;
     position:relative;
-}
+}*/
 
 #content.fr {float:right;}
 
@@ -2129,7 +2129,7 @@ code:after {clear:both;}
 
 .blog .post {
 	margin-bottom:0px;
-	overflow:hidden;
+	/*overflow:hidden;*/
 	position:relative;
 }
 
@@ -4094,12 +4094,12 @@ a.cmsms_content_next_slide:hover {border-left-color:#000000;}
 		margin:20px 0;
 	}
 	
-	#content  {
+	/*#content  {
 		border-bottom:1px solid #9d9d9d;
 		padding-bottom:50px;
 		margin-bottom:40px;
 		overflow:hidden;
-	}
+	}*/
 	
 	.portfolio_container.three_blocks, 
 	.portfolio_container.one_blocks {margin-right:0;}
